@@ -1,0 +1,152 @@
+::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #A5A5A5;
+}
+#login .flexContent{
+  height: calc(100vh - 75px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login .defaultBtn, #register .defaultBtn {
+  background-color: #85714D;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 9px 21px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+#login  .defaultBtn:hover, #register  .defaultBtn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}
+@media only screen and (max-width: 425px){
+  #login section {
+    margin: 15px !important;
+    width: 100% !important;
+  }
+  #register {
+    padding: 0 !important;
+  }
+  #register aside, #register section {
+    margin: 15px !important;
+  }
+}
+@media only screen and (max-width: 768px){
+  #register {
+    padding: 0 !important;
+  }
+}
+#login section {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+}
+#login input, #register form input {
+  background: #FCFCFC;
+  border: 1px solid #F4F4F4;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+#login div.alert.alert-danger, #register div.alert.alert-danger {
+  border-radius: 10px;
+  color: tomato;
+  background-color: transparent;
+  border: 0;
+  font-size: 16px;
+}
+
+#login section .form-group:first-child {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #626B85;
+}
+#login section .form-group:last-child, #register form .form-group:last-child {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+  text-align: center;
+}
+#login section .form-group:last-child a, #register form .form-group:last-child a, #login .forgot_password a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #85714D;
+}
+
+
+
+#register {
+  padding: 0 50px;
+}
+#register aside {
+  margin: 30px;
+}
+#register aside header{
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-bottom: 20px;
+}
+#register aside header span {
+  color: #85714D;
+  font-weight: 800;
+}
+#register aside footer {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #868686;
+}
+#register aside footer ul {
+  margin-top: 20px;
+}
+
+#register section {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  width: 100%;
+}
+
+#register form .form-group:first-child {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #626B85;
+}
+
+
+.forgot_password>a {
+  font-size: 14px !important;
+  margin-left: 13px;
+}

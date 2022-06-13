@@ -1,0 +1,122 @@
+#support {
+  background: url('../../assets/image/bg_img.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 250px;
+}
+@media only screen and (max-width: 768px){
+  .supportPanel {
+    padding: 70px 0px !important;
+  }
+  .supportPanel section>nav textarea {
+    height: 125px !important;
+  }
+}
+.supportPanel {
+  padding: 70px 50px;
+}
+.supportPanel section {
+  padding: 20px;
+}
+.supportPanel section header{
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 20px;
+}
+.supportPanel section header div:last-child {
+  font-family: 'Poppins' !important;
+  color: #626B85;
+  font-weight: 400;
+}
+.supportPanel section>div>img {
+  width: 100%;
+  height: auto;
+}
+.supportPanel section>div {
+  position: relative;
+}
+.supportPanel section>div aside {
+  position: absolute;
+  top: calc(50% - 45px);
+  left: calc(50% - 45px);
+  cursor: pointer;
+}
+.supportPanel section>div aside img {
+  width: 90px;
+  height: auto;
+}
+.supportPanel section>nav {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px;
+}
+.supportPanel section>nav input, .supportPanel section>nav textarea, .supportPanel section>nav button  {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.supportPanel section>nav input, .supportPanel section>nav textarea  {
+  background: #FCFCFC;
+  border: 1px solid #F4F4F4;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.supportPanel section>nav input {
+  padding: 10px;
+}
+.supportPanel section>nav textarea {
+  height: 245px;
+  padding: 10px;
+}
+
+
+.supportReadyPanel {
+  font-family: 'PoppinsBold';
+  text-align: center;
+  font-style: normal;
+  padding-bottom: 50px;
+}
+.supportReadyPanel header {
+  font-weight: 800;
+  font-size: 26px;
+  color: #000000;
+}
+.supportReadyPanel section {
+  font-weight: 400;
+  font-size: 16px;
+  color: #626B85;
+  padding: 20px 15px;
+}
+
+
+#support .defaultBtn {
+  background-color: #85714D;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 9px 21px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  /* display: block;
+  width: 100%; */
+}
+#support .defaultBtn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}
+
+.supportPanel section>nav textarea:focus, .supportPanel section>nav input:focus {
+  outline: none !important;
+  border: 1px solid #dbdada !important;
+}

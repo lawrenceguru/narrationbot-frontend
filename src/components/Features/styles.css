@@ -1,0 +1,108 @@
+#featured {
+  background: url('../../assets/image/bg_img.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 250px;
+}
+@media only screen and (max-width: 768px){
+  .featuredIconPanel {
+    padding: 0 0 !important;
+  }
+  .answerPanel>.col-md-4 {
+    padding: 0 !important;
+  }
+  .featuredIconList section {
+    font-size: 17px !important;
+  }
+}
+@media only screen and (max-width: 425px){
+  .featuredIconList {
+    min-height: 0 !important;
+  }
+  .answerPanel>.col-md-4>div>div:first-child {
+    min-height: 0 !important;
+  }
+}
+.featuredTitle {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 100px;
+  color: #000000;
+}
+.featuredIconPanel {
+  padding: 0 50px;
+}
+.featuredIconList {
+  margin-top: 50px;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px 20px;
+  min-height: 314px;
+}
+.featuredIconList img {
+  width: 80px;
+  height: auto;
+}
+.featuredIconList section {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+}
+
+
+
+.answerPanel {
+  padding: 50px 0;
+}
+.answerPanel>.col-md-4 {
+  padding: 20px;
+}
+.answerPanel>.col-md-4>div {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px 25px;
+}
+.answerPanel>.col-md-4>div>div:first-child {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #000000;
+  min-height: 110px;
+}
+.answerPanel>.col-md-4>div>div:last-child {
+  margin-top: 30px; 
+}
+#featured .defaultBtn {
+  background-color: #85714D;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 9px 21px;
+  border-radius: 9px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+#featured .defaultBtn a {
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+#featured .defaultBtn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}

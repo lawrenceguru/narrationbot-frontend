@@ -1,0 +1,341 @@
+#Subscription {
+  margin-left: 315px;
+  background: #FBFAF9;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 20px;
+}
+#Subscription .self-md-2 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+}
+#Subscription .self-md-30 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  position: relative;
+  width: 100%;
+}
+#Subscription .self-md-50 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+}
+@media only screen and (max-width: 425px){
+  #Subscription .self-md-2, #Subscription .self-md-30, .self-md-50  {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 768px){
+  #Subscription {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .SubscriptionMyFilesPanel footer {
+    overflow: auto;
+  }
+  .SubscriptionMyFilesPanel footer .ant-row {
+    width: 768px;
+  }
+  .SubscriptionpricingSubPanel header, .SubscriptionpricingPayPanel header div:first-child {
+    font-size: 15px !important;
+  }
+  /* .SubscriptionpricingSubPanel header, .SubscriptionpricingPayPanel header>div {
+    font-size: 14px !important;
+  } */
+}
+@media only screen and (max-width: 1440px){
+  .SubscriptionSettingPanel section header div:first-child, .SubscriptionSettingPanel section header>div:first-child>div span:last-child, .SubscriptionSettingPanel section header>div:first-child>div span:last-child, .SubscriptionSettingPanel section header div:first-child>div span:first-child {
+    font-size: 16px !important;
+  }
+  .SubscriptionSubPanel section, .SubscriptionSubPanel aside {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 768px){
+  .SubscriptionSettingPanel section header div:first-child, .SubscriptionSettingPanel section header>div:first-child>div span:last-child, .SubscriptionSettingPanel section header>div:first-child>div span:last-child, .SubscriptionSettingPanel section header div:first-child>div span:first-child {
+    font-size: 14px !important;
+  }
+  .SubscriptionSettingPanel section header {
+    min-height: 150px;
+  }
+  .SubscriptionNarrateSetting footer nav>div:nth-child(2) {
+    min-height: 130px !important;
+  }
+  .SubscriptionNarrateSetting footer nav>div.row .col-md-6>div:first-child, .SubscriptionNarrateSetting footer .clickChange {
+    font-size: 12px !important;
+  }
+}
+
+#Subscription .overviewPanel header {
+  font-family: 'PoppinsBold';
+  font-weight: 800;
+  font-size: 30px;
+  color: #000000;
+}
+#Subscription .overviewPanel footer {
+  font-weight: 400;
+  font-size: 20px;
+  color: #626B85;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 15px 0;
+}
+
+@media only screen and (max-width: 1024px){
+  .SubscriptionSubPanel section {
+    height: 60px;
+  }
+  .SubscriptionSubPanel aside.last_child button{
+    font-size: 10px !important;
+  }
+
+}
+.SubscriptionSubPanel {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+  padding: 5px;
+}
+.SubscriptionSubPanel header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ACACAC;
+  padding: 5px;
+}
+.SubscriptionSubPanel section {
+  height: 46px;
+  margin-top: 20px;
+  background: #000000;
+  padding: 10px 30px;
+
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.SubscriptionSubPanel section.last_child{
+  background: transparent !important;
+  color: transparent !important;
+}
+
+.SubscriptionSubPanel aside {
+  background: white;
+  padding: 10px 30px;
+
+  color: #000000;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin: 5px;
+  height: 47px;
+}
+.SubscriptionSubPanel aside.first_child{
+  background: #FCFCFC;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+.SubscriptionSubPanel aside.last_child{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #85714D;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.SubscriptionSubPanel aside.last_child.active{
+  background: #ABABAB;
+}
+.SubscriptionSubPanel  aside.last_child:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}
+
+.SubscriptionSubPanel .col-md-2, .SubscriptionPayPanel .col-md-2 {
+  padding: 0;
+}
+#Subscription>div:last-child {
+  padding: 20px;
+}
+
+.SubscriptionFirstSubPanel>div.row>.col-md-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.SubscriptionFirstSubPanel>div.row>.col-md-6:first-child {
+  padding-right: 10px;
+}
+.SubscriptionpricingSubPanel, .SubscriptionpricingPayPanel {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.SubscriptionpricingSubPanel {
+  background: #85714D !important;
+}
+.SubscriptionpricingSubPanel>section {
+  background: white;
+  margin: 0 10px 10px 10px;
+}
+.SubscriptionpricingSubPanel header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px 5px;
+}
+.SubscriptionpricingSubPanel header div.self-md-50:first-child {
+  color: #FFFFFF;
+}
+.SubscriptionpricingSubPanel header div.self-md-50:last-child {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: right;
+}
+.SubscriptionpricingSubPanel aside {
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 20px;
+  margin: 5px;
+}
+.SubscriptionpricingSubPanel .self-md-50:first-child aside {
+  font-family: 'PoppinsBold';
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+}
+.SubscriptionpricingSubPanel .self-md-50:last-child aside {
+  color: #000000;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.SubscriptionpricingPayPanel>.row {
+  background: white;
+  margin: 0 10px;
+}
+.SubscriptionpricingPayPanel>.row:last-child {
+  background: white;
+  margin-bottom: 10px;
+}
+.SubscriptionpricingPayPanel, .SubscriptionpricingSubPanel {
+  background: black;
+  border-radius: 20px;
+  padding: 5px;
+}
+.SubscriptionpricingPayPanel header div:first-child {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  text-transform: uppercase;
+  color: white;
+  padding: 20px 5px;
+}
+.SubscriptionpricingPayPanel section {
+  margin-top: 20px;
+  padding: 10px 30px;
+
+  color: black;
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+}
+
+.SubscriptionpricingPayPanel aside {
+  background: white;
+  padding: 10px 30px;
+
+  color: #000000;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+}
+.SubscriptionpricingPayPanel aside.first_child{
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+#Subscription .defaultBtn {
+  background-color: #85714D;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 9px 21px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  /* display: block;
+  width: 100%; */
+}
+#Subscription .defaultBtn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}

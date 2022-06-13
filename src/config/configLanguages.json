@@ -1,0 +1,151 @@
+{
+  "data": [
+    {
+      "Language": "Arabic",
+      "LanguageCode": "arb",
+      "standardEngin": true
+    },
+    {
+      "Language": "Catalan",
+      "LanguageCode": "ca-ES"
+    },
+    {
+      "Language": "Chinese, Mandarin",
+      "LanguageCode": "cmn-CN",
+      "standardEngin": true
+    },
+    {
+      "Language": "Danish",
+      "LanguageCode": "da-DK",
+      "standardEngin": true
+    },
+    {
+      "Language": "Dutch",
+      "LanguageCode": "nl-NL",
+      "standardEngin": true
+    },
+    {
+      "Language": "English, Australian",
+      "LanguageCode": "en-AU"
+    },
+    {
+      "Language": "English, British",
+      "LanguageCode": "en-GB"
+    },
+    {
+      "Language": "English, Indian",
+      "LanguageCode": "en-IN",
+      "standardEngin": true
+    },
+    {
+      "Language": "English, New Zealand",
+      "LanguageCode": "en-NZ"
+    },
+    {
+      "Language": "English, South African",
+      "LanguageCode": "en-ZA"
+    },
+    {
+      "Language": "English, US",
+      "LanguageCode": "en-US"
+    },
+    {
+      "Language": "English, Welsh",
+      "LanguageCode": "en-GB-WLS",
+      "standardEngin": true
+    },
+    {
+      "Language": "French",
+      "LanguageCode": "fr-FR"
+    },
+    {
+      "Language": "French, Canadian",
+      "LanguageCode": "fr-CA"
+    },
+    {
+      "Language": "Hindi",
+      "LanguageCode": "hi-IN",
+      "standardEngin": true
+    },
+    {
+      "Language": "German",
+      "LanguageCode": "de-DE"
+    },
+    {
+      "Language": "German, Austrian",
+      "LanguageCode": "de-AT"
+    },
+    {
+      "Language": "Icelandic",
+      "LanguageCode": "is-IS",
+      "standardEngin": true
+    },
+    {
+      "Language": "Italian",
+      "LanguageCode": "it-IT"
+    },
+    {
+      "Language": "Japanese",
+      "LanguageCode": "ja-JP"
+    },
+    {
+      "Language": "Korean",
+      "LanguageCode": "ko-KR"
+    },
+    {
+      "Language": "Norwegian",
+      "LanguageCode": "nb-NO",
+      "standardEngin": true
+    },
+    {
+      "Language": "Polish",
+      "LanguageCode": "pl-PL",
+      "standardEngin": true
+    },
+    {
+      "Language": "Portuguese, Brazilian",
+      "LanguageCode": "pt-BR"
+    },
+    {
+      "Language": "Portuguese, European",
+      "LanguageCode": "pt-PT"
+    },
+    {
+      "Language": "Romanian",
+      "LanguageCode": "ro-RO",
+      "standardEngin": true
+    },
+    {
+      "Language": "Russian",
+      "LanguageCode": "ru-RU",
+      "standardEngin": true
+    },
+    {
+      "Language": "Spanish, European",
+      "LanguageCode": "es-ES"
+    },
+    {
+      "Language": "Spanish, Mexican",
+      "LanguageCode": "es-MX"
+    },
+    {
+      "Language": "Spanish, US",
+      "LanguageCode": "es-US"
+    },
+    {
+      "Language": "Swedish",
+      "LanguageCode": "sv-SE",
+      "standardEngin": true
+    },
+    {
+      "Language": "Turkish",
+      "LanguageCode": "tr-TR",
+      "standardEngin": true
+    },
+    {
+      "Language": "Welsh",
+      "LanguageCode": "cy-GB",
+      "standardEngin": true
+    }
+  ]
+}

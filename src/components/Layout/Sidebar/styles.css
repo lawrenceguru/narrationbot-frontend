@@ -1,0 +1,177 @@
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+@media only screen and (max-width: 768px){
+  .sidebar-header > span {
+    display: block !important;
+  }
+  .sidebar-header h3 {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+.sidebar {
+  position: absolute;
+  min-width: 315px;
+  max-width: 315px;
+  /* background: #7386d5;
+  color: #fff; */
+  margin-left: -250px;
+  transition: all 0.5s;
+}
+
+.sidebar.is-open {
+  margin-left: 0;
+  transition: 0.5s;
+}
+
+.sidebar-header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.sidebar-header section {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+}
+.sidebar-header section img {
+  width: 50%;
+  height: auto;
+}
+.sidebar-header section footer div:first-child {
+  font-family: 'PoppinsBold';
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 10px;
+}
+.sidebar-header section footer div:last-child {
+  font-weight: 400;
+  font-size: 20px;
+  color: #C9C9C9;
+  /* margin-top: 10px; */
+}
+
+
+/* .sidebar-header h3 {
+  color: #fff;
+  padding: 1em;
+} */
+
+.sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+.menu-open {
+  background: #6d7fcc;
+}
+
+.nav-item:hover {
+  color: #7386d5;
+  background: #fff;
+}
+
+.items-menu {
+  color: #fff;
+  background: #6d7fcc;
+}
+
+li a.dropdown-toggle::after {
+  display: inline-flex;
+  position: relative;
+  left: 60%;
+  top: 10%;
+}
+
+.sidebar-header > span {
+  /* position: relative; */
+  /* float: right; */
+  margin: 0.5em;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+.side-menu {
+  /* height: calc(100vh - 130px);
+  overflow-y: scroll; */
+  margin-left: 20px;
+}
+
+.side-menu .nav-link>span {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+
+  color: #6C6C6C;
+}
+.side-menu .nav-link.active>span {
+  font-weight: 700;
+  color: #85714D;
+}
+.side-menu .nav-link.active>svg circle  {
+  fill: #85714D;
+}
+.side-menu .nav-link.active>svg path  {
+  fill:white;
+}
+
+
+
+.TreeViewSidebarHeader {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+  padding: 20px;
+  border-bottom: 1px solid #D9D9D9;
+  margin: 10px 20px;
+}
+
+#context-menu {
+  position: fixed;
+  border: 1px solid gainsboro;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 9px -2px;
+  z-index: 100;
+  padding: 3px;
+}
+#context-menu>div {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: #a49e7a;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+#context-menu>div:last-child {
+  margin-bottom: 0;
+}
+#context-menu>div span {
+  display: inline-block;
+  margin: 0 10px;
+}
+#context-menu>div:hover {
+  background-color: gainsboro;
+  color: rgba(0,0,0,.7);
+}
+.ant-tree .ant-tree-node-content-wrapper .ant-tree-iconEle {
+  vertical-align: super;
+}
+.ant-tree-title {
+  font-family: 'Arial';
+  font-size: 18px;
+}
+
+

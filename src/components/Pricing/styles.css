@@ -1,0 +1,168 @@
+#pricing {
+  background: url('../../assets/image/bg_img.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 250px;
+}
+.pricingTitle {
+  text-align: center;
+}
+.pricingTitle section {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: #000000;
+}
+.pricingTitle aside {
+  padding: 40px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .pricingSubPanel section>header, .pricingPayPanel section>header {
+    height: auto !important;
+    display: block !important;
+  }
+  .pricingSubPanel .col-md-2, .pricingPayPanel .col-md-2 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .pricingSubPanel section>header, .pricingPayPanel section>header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricingSubPanel .col-md-2, .pricingPayPanel .col-md-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.pricingSubPanel, .pricingPayPanel {
+  text-align: center;
+}
+.pricingSubPanel>header {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 30px;
+}
+.pricingSubPanel section, .pricingPayPanel section {
+  margin-top: 10px;
+}
+.pricingSubPanel section>header, .pricingPayPanel section>header {
+  background: #000000;
+  font-family: 'PoppinsBold';
+  color: #FFFFFF;
+  font-style: normal;
+  padding: 15px;
+}
+.pricingSubPanel section>header div:first-child, .pricingPayPanel section>header div:first-child {
+  font-weight: 400;
+  font-size: 18px;
+}
+.pricingSubPanel section>header div:last-child, .pricingPayPanel section>header div:last-child {
+  font-weight: 400;
+  font-size: 14px;
+}
+.pricingSubPanel section>header div:last-child span, .pricingPayPanel section>header div:last-child span {
+  font-weight: 700;
+  font-size: 22px;
+}
+.pricingSubPanel section>aside, .pricingPayPanel section>aside {
+  padding: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.pricingSubPanel section>aside div {
+  padding: 15px 0;
+}
+.pricingSubPanel section>aside div:first-child {
+  border-bottom: 1px solid #85714D;
+}
+.pricingSubPanel section>footer, .pricingPayPanel section>footer {
+  padding: 0 0 25px 0;
+}
+.pricingSubPanel section, .pricingPayPanel section {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+}
+
+
+.pricingPayPanel>header div:first-child {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 50px;
+}
+.pricingPayPanel>header div:last-child {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.pricingPayPanel section>aside {
+  padding: 20px 0 20px 0;
+}
+
+
+.pricingReadyPanel {
+  font-family: 'Poppins';
+  text-align: center;
+  font-style: normal;
+  padding-bottom: 50px;
+}
+.pricingReadyPanel header {
+  font-family: 'PoppinsBold';
+  font-weight: 800;
+  font-size: 26px;
+  color: #000000;
+  padding-top: 50px;
+}
+.pricingReadyPanel section {
+  font-weight: 400;
+  font-size: 16px;
+  color: #626B85;
+  padding: 20px 15px;
+}
+
+
+
+#pricing .defaultBtn {
+  background-color: #85714D;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 9px 21px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+#pricing .defaultBtn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}

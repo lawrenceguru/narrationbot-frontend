@@ -1,0 +1,167 @@
+#Narrate {
+  margin-left: 315px;
+  background: #FBFAF9;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px){
+  #Narrate {
+    margin-left: 0;
+  }
+ 
+}
+@media only screen and (max-width: 1024px){
+  
+}
+@media only screen and (max-width: 1440px){
+  
+}
+@media only screen and (max-width: 768px){
+  
+}
+
+#Narrate .overviewPanel header {
+  font-family: 'PoppinsBold';
+  font-weight: 800;
+  font-size: 30px;
+  color: #000000;
+}
+#Narrate .overviewPanel footer {
+  font-weight: 400;
+  font-size: 20px;
+  color: #626B85;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 15px 0;
+}
+
+.NarratePanel {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+  margin: 15px 0;
+  padding: 20px;
+}
+.NarratePanel>header>div:last-child {
+  color: #C9C9C9;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 20px;
+  width: 50%;
+  float: left;
+}
+.NarratePanel>header>div:first-child {
+  width: 50%;
+  float: left;
+  font-family: 'PoppinsBold';
+  font-weight: 400;
+  font-size: 22px;
+  min-height: 30px;
+  text-transform: capitalize;
+}
+.NarratePanel>header span {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.NarratePanel>header span:first-child {
+  margin-right: 20px;
+}
+.NarratePanel textarea {
+  display: block;
+  width: 100%;
+  height: 450px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  background: #FCFCFC;
+  border: 1px solid #F4F4F4;
+  border-radius: 20px;
+  padding: 20px;
+}
+.NarratePanel textarea:focus {
+  outline: none !important;
+  border: 1px solid #dbdada !important;
+}
+.NarratePanel section>footer {
+  color: #C9C9C9;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.NarratePanel section>footer span.active {
+  color: tomato;
+}
+.NarratePanel>footer>.row>div {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.NarratePanel>footer>.row>div:last-child, .NarratePanel .grayColor {
+  color: #C9C9C9;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+.NarratePanel>footer>.row>div>div:first-child {
+  margin-bottom: 10px;
+}
+
+
+
+
+#Narrate .ant-select-selector {
+  border: 1px solid #85714D !important;
+  border-radius: 5px !important;
+  color: #85714D !important;
+  font-family: 'PoppinsBold' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  margin-bottom: 10px !important;
+  height: 45px;
+  padding: 7px;
+}
+.NarratePanel footer input {
+  border: 1px solid #85714D !important;
+  border-radius: 5px !important;
+  color: #85714D !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+  height: 45px;
+  padding: 8px;
+}
+
+
+#Narrate .defaultBtn {
+  background-color: #85714D;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 9px 21px;
+  border-radius: 9px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+#Narrate .defaultBtn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}

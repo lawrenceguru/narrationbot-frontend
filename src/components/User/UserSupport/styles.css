@@ -1,0 +1,175 @@
+#UserSupport {
+  margin-left: 315px;
+  background: #FBFAF9;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 20px;
+}
+#UserSupport .col-md-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 768px){
+  #UserSupport {
+    margin-left: 0;
+  }
+  .SupportPanel .centerSection {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .SupportPanel>footer .clipIcon {
+    margin: 0 auto;
+    width: 200px !important;
+  }
+  .SupportPanel .col-md-6 {
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 1024px){
+  
+}
+@media only screen and (max-width: 1440px){
+  
+}
+@media only screen and (max-width: 768px){
+  
+}
+
+#UserSupport .overviewPanel header {
+  font-family: 'PoppinsBold';
+  font-weight: 800;
+  font-size: 30px;
+  color: #000000;
+}
+#UserSupport .overviewPanel footer {
+  font-weight: 400;
+  font-size: 20px;
+  color: #626B85;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 15px 0;
+}
+
+
+
+#UserSupport .defaultBtn {
+  background-color: #85714D;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 18px 42px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  cursor: pointer;
+  /* display: block;
+  width: 100%; */
+}
+#UserSupport .defaultBtn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}
+
+
+.SupportPanel {
+  margin-top: 50px;
+}
+.SupportPanel>header>div:first-child {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.SupportPanel section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
+  background: #9E9E9E;
+  border-radius: 9px;
+  cursor: pointer;
+
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.SupportPanel .centerSection {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #85714D;
+}
+
+.SupportPanel>nav {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.SupportPanel>nav input {
+  margin-bottom: 15px;
+}
+.SupportPanel>nav textarea {
+  min-height: 460px;
+  padding: 20px 10px !important;
+}
+.SupportPanel>nav input, .SupportPanel>nav textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #FCFCFC;
+  border: 1px solid #F4F4F4;
+  border-radius: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #A5A5A5;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #A5A5A5;
+}
+
+
+.SupportPanel>footer {
+  margin-bottom: 50px;
+}
+.SupportPanel .col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 20px;
+}
+.SupportPanel>footer .clipIcon {
+  border: 1px dashed #D7D7D7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #404656;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  width: 404px;
+  height: 67px;
+}
+
+
+#UserSupport textarea:focus, #UserSupport input:focus {
+  outline: none !important;
+  border: 1px solid #dbdada !important;
+}

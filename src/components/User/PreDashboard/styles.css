@@ -1,0 +1,180 @@
+#PreDashboard {
+  background: url('../../../assets/image/bg_img.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 250px;
+}
+.PreDashboardTitle {
+  text-align: center;
+}
+.PreDashboardTitle section {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: #000000;
+}
+.PreDashboardTitle section header {
+  font-family: 'PoppinsBold';
+  font-weight: 700;
+  font-size: 40px;
+}
+.PreDashboardTitle section aside {
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+  .PreDashboardSubPanel section>header, .PreDashboardPayPanel section>header {
+    height: auto !important;
+    display: block !important;
+  }
+  .PreDashboardSubPanel .col-md-2, .PreDashboardPayPanel .col-md-2 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .PreDashboardSubPanel section>header, .PreDashboardPayPanel section>header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .PreDashboardSubPanel .col-md-2, .PreDashboardPayPanel .col-md-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.PreDashboardSubPanel {
+  margin-top: 50px;
+}
+.PreDashboardSubPanel, .PreDashboardPayPanel {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.PreDashboardSubPanel>header {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 30px;
+}
+.PreDashboardSubPanel section, .PreDashboardPayPanel section {
+  margin-top: 10px;
+}
+.PreDashboardSubPanel section>header, .PreDashboardPayPanel section>header {
+  background: #000000;
+  font-family: 'PoppinsBold';
+  color: #FFFFFF;
+  font-style: normal;
+  padding: 15px;
+}
+.PreDashboardSubPanel section>header div:first-child, .PreDashboardPayPanel section>header div:first-child {
+  font-weight: 400;
+  font-size: 18px;
+}
+.PreDashboardSubPanel section>header div:last-child, .PreDashboardPayPanel section>header div:last-child {
+  font-weight: 400;
+  font-size: 14px;
+}
+.PreDashboardSubPanel section>header div:last-child span, .PreDashboardPayPanel section>header div:last-child span {
+  font-weight: 700;
+  font-size: 22px;
+}
+.PreDashboardSubPanel section>aside, .PreDashboardPayPanel section>aside {
+  padding: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.PreDashboardSubPanel section>aside div {
+  padding: 15px 0;
+}
+.PreDashboardSubPanel section>aside div:first-child {
+  border-bottom: 1px solid #85714D;
+}
+.PreDashboardSubPanel section>footer, .PreDashboardPayPanel section>footer {
+  padding: 0px 0 25px 0;
+}
+.PreDashboardSubPanel section, .PreDashboardPayPanel section {
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+}
+
+
+.PreDashboardPayPanel>header div:first-child {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 50px;
+}
+.PreDashboardPayPanel>header div:last-child {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.PreDashboardPayPanel section>aside {
+  padding: 20px 0 20px 0;
+}
+
+
+
+.PreDashboardReadyPanel {
+  font-family: 'Poppins';
+  text-align: center;
+  font-style: normal;
+  padding-bottom: 50px;
+}
+.PreDashboardReadyPanel header {
+  font-family: 'PoppinsBold';
+  font-weight: 800;
+  font-size: 26px;
+  color: #000000;
+  padding-top: 50px;
+}
+.PreDashboardReadyPanel section {
+  font-weight: 400;
+  font-size: 16px;
+  color: #626B85;
+  padding: 20px 15px;
+}
+
+
+
+#PreDashboard .defaultBtn {
+  background-color: #85714D;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 9px 21px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+}
+#PreDashboard .defaultBtn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s
+}
